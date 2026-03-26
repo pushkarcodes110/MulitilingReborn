@@ -53,6 +53,12 @@ cd MultilingReborn
 3. If prompted, let Android Studio install missing SDK components
 4. Click **Run** or **Build > Build APK(s)**
 
+### GitHub Actions
+
+This repository includes a workflow at `.github/workflows/build-debug-apk.yml`.
+On every push to `main`, pull request, or manual run, GitHub Actions builds
+`app-debug.apk` and uploads it as an artifact named `app-debug-apk`.
+
 ### Notes for fresh machines
 
 - `local.properties` is intentionally not committed because it contains a machine-specific Android SDK path.
