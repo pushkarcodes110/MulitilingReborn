@@ -1,0 +1,3 @@
+-keep class com.multilingreborn.keyboard.** { *; }
+-keepattributes *Annotation*
+-dontwarn kotlin.**

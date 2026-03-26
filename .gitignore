@@ -1,0 +1,13 @@
+.DS_Store
+.idea/
+*.iml
+.android-sdk/
+.gradle/
+.gradle-dist/
+.gradle-home/
+build/
+app/build/
+app/src/legacy/
+captures/
+local.properties
+{app/
